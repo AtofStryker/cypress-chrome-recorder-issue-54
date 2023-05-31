@@ -1,0 +1,1 @@
+run `npx @cypress/chrome-recorder ./cypress/e2e/cypress_recorder.json` 

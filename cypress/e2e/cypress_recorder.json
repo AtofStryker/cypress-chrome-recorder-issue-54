@@ -1,0 +1,56 @@
+{
+    "title": "cypress_recorder",
+    "steps": [
+        {
+            "type": "setViewport",
+            "width": 1792,
+            "height": 512,
+            "deviceScaleFactor": 1,
+            "isMobile": false,
+            "hasTouch": false,
+            "isLandscape": false
+        },
+        {
+            "type": "navigate",
+            "url": "chrome://new-tab-page/",
+            "assertedEvents": [
+                {
+                    "type": "navigation",
+                    "url": "chrome://new-tab-page/",
+                    "title": "New Tab"
+                }
+            ]
+        },
+        {
+            "type": "navigate",
+            "url": "https://www.cypress.io/",
+            "assertedEvents": [
+                {
+                    "type": "navigation",
+                    "url": "https://www.cypress.io/",
+                    "title": ""
+                }
+            ]
+        },
+        {
+            "type": "click",
+            "target": "main",
+            "selectors": [
+                [
+                    "main astro-slot"
+                ],
+                [
+                    "xpath//html/body/main/section[1]/div[2]/div/div[2]/astro-island/button/astro-slot"
+                ],
+                [
+                    "pierce/main astro-slot"
+                ],
+                [
+                    "text/npm install cypress"
+                ]
+            ],
+            "offsetY": 1,
+            "offsetX": 1
+        }
+    ]
+}
